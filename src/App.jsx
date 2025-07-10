@@ -424,7 +424,7 @@ export default function App() {
                         value={fileName}
                         onChange={(e) => setFileName(e.target.value)}
                         className="flex-1 block w-full h-12 px-4 border-0 bg-white/50 backdrop-blur-sm text-gray-900 placeholder-gray-400 focus:ring-0 focus:outline-none text-sm font-medium"
-                        placeholder="contoh: dokumen-saya"
+                        placeholder="Example: my-task"
                       />
                       <div className="flex items-center px-4 bg-gradient-to-l from-blue-50 to-white border-l border-gray-200">
                         <span className="text-sm font-semibold text-blue-600 select-none">
