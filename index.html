@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JPG to PDF Converter</title>
+    <meta name="theme-color" content="#0d9488">
+
+    <!-- SEO Metadata -->
+    <meta name="description" content="A free, fast, and easy-to-use online tool to convert multiple JPG, PNG, and other images into a single, high-quality PDF file. No limits, no watermarks. Drag, drop, reorder, and convert." />
+    <meta name="keywords" content="jpg to pdf, image to pdf, convert jpg to pdf, png to pdf, free pdf converter, online tool, jpg to pdf converter" />
+    <meta name="author" content="Loxyland" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook Metadata -->
+    <meta property="og:title" content="JPG to PDF Converter | Free & Unlimited" />
+    <meta property="og:description" content="Easily convert multiple images to a single PDF. Free, unlimited, and no watermarks." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" /> 
+    <meta property="og:image" content="https://placehold.co/1200x630/0d9488/FFFFFF?text=JPG+to+PDF%0AConverter" /> <!-- Ganti dengan URL gambar preview -->
+    <meta property="og:site_name" content="JPG to PDF Converter" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JPG to PDF Converter | Free & Unlimited" />
+    <meta name="twitter:description" content="Easily convert multiple images to a single PDF. Free, unlimited, and no watermarks." />
+    <meta name="twitter:image" content="https://placehold.co/1200x630/0d9488/FFFFFF?text=JPG+to+PDF%0AConverter" /> <!-- Ganti dengan URL gambar preview -->
+    <meta name="twitter:url" content="https://example.com" /> <!-- Ganti dengan URL website Anda -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Konfigurasi Tailwind
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal: {
+                50: '#f0fdfa',
+                100: '#ccfbf1',
+                200: '#99f6e4',
+                300: '#5eead4',
+                400: '#2dd4bf',
+                500: '#14b8a6',
+                600: '#0d9488',
+                700: '#0f766e',
+                800: '#115e59',
+                900: '#134e4a',
+                950: '#042f2e',
+              },
+              cyan: {
+                50: '#ecfeff',
+                100: '#cffafe',
+                200: '#a5f3fc',
+                300: '#67e8f9',
+                400: '#22d3ee',
+                500: '#06b6d4',
+                600: '#0891b2',
+                700: '#0e7490',
+                800: '#155e75',
+                900: '#164e63',
+                950: '#083344',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
